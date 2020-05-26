@@ -4,10 +4,9 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
-@Entity
+
 public class SocialMedia {
-    @Id
-    @GeneratedValue
+
     private String github;
     private String twitter;
     private String instagram;
